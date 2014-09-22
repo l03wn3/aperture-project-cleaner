@@ -14,7 +14,8 @@ This script will go through a project, delete RAW files you've rated lower than 
 you've rated -1.
 
 ###Installation
-Install by putting it in a script folder Aperture looks in for applescripts. Either: 
+Install by putting it in a script folder Aperture looks in for applescripts. Either:
+
 `~/Library/Scripts/Aperture`
 
 or
