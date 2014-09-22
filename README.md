@@ -1,8 +1,7 @@
 aperture-project-cleaner
 ========================
 
-##Description
-
+###Description
 Cleans an Aperture project with separate RAW and JPG files based on RAW ratings.
 
 If you use Aperture, and photograph both RAW and JPG, you'll perhaps feel
@@ -14,15 +13,15 @@ This script will go through a project, delete RAW files you've rated lower than 
 (and delete the corresponding JPG file) and delete both the RAW and the JPG of an image
 you've rated -1.
 
-#Installation
-
+###Installation
 Install by putting it in a script folder Aperture looks in for applescripts. Either: 
 `~/Library/Scripts/Aperture`
+
 or
+
 `/Library/Scripts/Aperture`
 
-#Usage
-
+###Usage
 You can either run the utility by opening it in Applescript Editor and pressing the run button or
 enabling the applescript menu bar item and running it from there.
 
