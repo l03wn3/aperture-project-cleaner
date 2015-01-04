@@ -8,10 +8,25 @@ If you use Aperture, and photograph both RAW and JPG, you'll perhaps feel
 that it would be convenient to keep RAW files of images you like and want to
 edit, and keep the JPG files of the images you just want to keep.
 
-This script will go through a project, delete RAW files you've rated lower than 4
-(but keep the corresponding JPG file), keep the RAW files you've rated 4 and higher
-(and delete the corresponding JPG file) and delete both the RAW and the JPG of an image
-you've rated -1.
+My review process is as follows:
+1. Look at only images from either file type (only raw or only jpg)
+2. Mark good images (for which I'd like to keep the raw) 4.
+3. Mark mediocre image with nothing
+4. Mark badly exposed or unfocused or otherwise crap images with -1 (by pressing 9)
+5. Run script!
+6. Delete images manually from newly created folder of reduntant images.
+
+This script will go through a project and delete unnecessarsy files as follows:
+
+Or more structured:
+| Raw rating     | Jpg Rating    | Action    |
+| :------------- |:-------------:| :-----:   |
+| 4 <= r         | 0 < r < 4     | del jpg   |
+| 4 <= r         | 4 <= r        | nothing   |
+| 0 < r < 4      | 4 <= r        | del raw   |
+| -1             | x             | del both  |
+| x              | -1            | del both  |
+
 
 ###Installation
 Install by putting it in a script folder Aperture looks in for applescripts. Either:
