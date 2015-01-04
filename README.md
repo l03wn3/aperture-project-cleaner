@@ -48,6 +48,6 @@ To enable the applescript menu bar item, open Applescript Editor and preferences
 check the box "Show Script menu in menu bar"
 
 Before you run the script, make sure you have selected an image in the project you want to clean.
-The script will now create an album called 'duplicates' and add images that it feels should be cleaned out from there.
+The script will now create an album called 'reduntant files' and add images that it feels should be cleaned out from there.
 
 From there you can safely delete them manually.
