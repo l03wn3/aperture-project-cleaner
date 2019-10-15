@@ -1,7 +1,7 @@
 aperture-project-cleaner
 ========================
 
-##Description
+## Description
 Cleans an Aperture project with separate RAW and JPG files based on RAW ratings.
 
 If you use Aperture, and photograph both RAW and JPG, you'll perhaps feel
